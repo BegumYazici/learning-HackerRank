@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ba28c2-0629-4842-b9dc-6d18aa03f3e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaExcaptionHandling.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaHandling.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +60,7 @@
       <file leaf-file-name="JavaInstanceof.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaInstanceof.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="612">
               <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -68,14 +69,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaIterator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaIterator.java">
+      <file leaf-file-name="JavaHandling.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaHandling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#418#450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaExcaptionHandling.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaExcaptionHandling.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding>
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1220#1221#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,6 +140,8 @@
         <option value="$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaOverridingSuper.java" />
         <option value="$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaInstanceof.java" />
         <option value="$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaIterator.java" />
+        <option value="$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaHandling.java" />
+        <option value="$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaExcaptionHandling.java" />
       </list>
     </option>
   </component>
@@ -178,7 +195,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hackerRank" type="1abcf292:AndroidViewProjectNode" />
+              <item name="hackerRank" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="hackerRank" type="1abcf292:AndroidViewProjectNode" />
+              <item name="hackerRank" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="hackerRank" type="1abcf292:AndroidViewProjectNode" />
+              <item name="hackerRank" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="JavaTutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,34 +243,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="JavaTutorial" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hackerRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaTutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaExcaptionHandling.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="hackerRank" type="1abcf292:AndroidViewProjectNode" />
-              <item name="hackerRank" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="hackerRank" type="1abcf292:AndroidViewProjectNode" />
-              <item name="hackerRank" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="hackerRank" type="1abcf292:AndroidViewProjectNode" />
-              <item name="hackerRank" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="JavaTutorial" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,7 +285,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaIterator">
+  <component name="RunManager" selected="Application.JavaExcaptionHandling">
+    <configuration name="JavaExcaptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="HackerRankExamples.JavaTutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="HackerRankExamples.JavaTutorial.JavaExcaptionHandling" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hackerRank" />
+      <envs />
+    </configuration>
+    <configuration name="JavaHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="HackerRankExamples.JavaTutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="HackerRankExamples.JavaTutorial.JavaHandling" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hackerRank" />
+      <envs />
+    </configuration>
     <configuration name="JavaInstanceof" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -280,25 +343,6 @@
       <module name="hackerRank" />
       <envs />
     </configuration>
-    <configuration name="JavaInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="HackerRankExamples.JavaTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="HackerRankExamples.JavaTutorial.JavaInterface" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hackerRank" />
-      <envs />
-    </configuration>
     <configuration name="JavaIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -307,25 +351,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="HackerRankExamples.JavaTutorial.JavaIterator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hackerRank" />
-      <envs />
-    </configuration>
-    <configuration name="JavaOverriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="HackerRankExamples.JavaTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="HackerRankExamples.JavaTutorial.JavaOverriding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -425,19 +450,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.JavaInterface" />
-      <item index="1" class="java.lang.String" itemvalue="Application.JavaOverriding" />
-      <item index="2" class="java.lang.String" itemvalue="Application.JavaOverridingSuper" />
-      <item index="3" class="java.lang.String" itemvalue="Application.JavaInstanceof" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JavaIterator" />
+      <item index="0" class="java.lang.String" itemvalue="Application.JavaOverridingSuper" />
+      <item index="1" class="java.lang.String" itemvalue="Application.JavaInstanceof" />
+      <item index="2" class="java.lang.String" itemvalue="Application.JavaIterator" />
+      <item index="3" class="java.lang.String" itemvalue="Application.JavaHandling" />
+      <item index="4" class="java.lang.String" itemvalue="Application.JavaExcaptionHandling" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.JavaIterator" />
-        <item index="1" class="java.lang.String" itemvalue="Application.JavaInstanceof" />
-        <item index="2" class="java.lang.String" itemvalue="Application.JavaOverridingSuper" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JavaOverriding" />
-        <item index="4" class="java.lang.String" itemvalue="Application.JavaInterface" />
+        <item index="0" class="java.lang.String" itemvalue="Application.JavaExcaptionHandling" />
+        <item index="1" class="java.lang.String" itemvalue="Application.JavaHandling" />
+        <item index="2" class="java.lang.String" itemvalue="Application.JavaIterator" />
+        <item index="3" class="java.lang.String" itemvalue="Application.JavaInstanceof" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JavaOverridingSuper" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +499,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20095949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20309168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -506,23 +531,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/Split.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaRegex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -895,16 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaInstanceof.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -912,6 +910,39 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#418#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaInstanceof.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaHandling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerRank/src/HackerRankExamples/JavaTutorial/JavaExcaptionHandling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
           </folding>
         </state>
       </provider>
