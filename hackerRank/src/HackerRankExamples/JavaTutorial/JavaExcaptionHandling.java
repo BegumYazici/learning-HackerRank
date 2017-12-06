@@ -1,5 +1,4 @@
 package HackerRankExamples.JavaTutorial;
-
 import java.util.Scanner;
 
 public class JavaExcaptionHandling {
@@ -34,7 +33,6 @@ public class JavaExcaptionHandling {
 }
 
 class ExceptionZero extends Exception {
-
     @Override
     public String getMessage() {
         return "n and p should not be zero.";
@@ -42,10 +40,8 @@ class ExceptionZero extends Exception {
 }
 
 class ExceptionNegative extends Exception {
-
     @Override
     public String getMessage() {
         return "n or p should not be negative.";
     }
 }
-
