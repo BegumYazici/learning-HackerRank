@@ -4,10 +4,10 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.lang.reflect.Method;
 import java.util.Set;
-
+ /*
 public class JavaSimpleAdditon {
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         try{
             BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
             int n1=Integer.parseInt(br.readLine());
@@ -22,7 +22,7 @@ public class JavaSimpleAdditon {
             ob.add(n1,n2,n3,n4,n5);
             ob.add(n1,n2,n3,n4,n5,n6);
             Method[] methods=Add.class.getDeclaredMethods();
-          Set<String> set=new HashSet<>();
+          Set<String> set=new HashSet<String>();
             boolean overload=false;
             for(int i=0;i<methods.length;i++)
             {
@@ -60,4 +60,4 @@ class Add
         System.out.println(s);
     }
 
-}
+}  */
