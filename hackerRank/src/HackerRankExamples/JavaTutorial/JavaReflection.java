@@ -7,15 +7,7 @@ public class JavaReflection {
     public static void main(String[] args) {
         try {
 
-            // İlk önce test edeceğimiz Clası çağırıyoruz ve nesnemize atıyoruz.
-            // iki türlüde kullanabilrisiniz.
-             Class cls = ReflectionClass.class;
-            // Metodları okumaya başlayalım metod isimleri,
-            // dönüş tipleri,default değeri,kaç parametre alıyorsa sayısı
-            // parametlerin isimleri ve çoğu bilgiye oluşturduğumuz
-            // Class nesnesinin getDeclaredMethods()
-            // metodunu çağırarak çekebiliriz.
-
+            Class cls = ReflectionClass.class;
             for (Method m : cls.getDeclaredMethods()) {
                 m.getName();
                 m.getReturnType();
@@ -24,7 +16,6 @@ public class JavaReflection {
                         + " Metod Dönüş Tipi : " + m.getReturnType() + " \n"
                         + " Parametre Sayısı : " + m.getParameterCount());
             }
-
         } catch (Exception ex) {
             ex.printStackTrace();
         }
